@@ -2,8 +2,7 @@
   "name": "projectk",
   "version": "1.0.0",
   "description": "Kami first eris bot",
-  "main": "Index.js",
-  "type": "module",
+  "main": "Index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
