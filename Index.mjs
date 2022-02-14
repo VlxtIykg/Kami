@@ -36,6 +36,6 @@ console.log(commands)
 
 
 client
-    .addDir(path.join(__filename, './events'))
-    .addDir(path.join(__filename, './commands'))
+    .addDir(path.join(__filename, '../events'))
+    .addDir(path.join(__filename, '../commands'))
     .connect();
