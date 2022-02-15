@@ -16,22 +16,22 @@ const client = new Client({
     ignoreBots: true,
 })
 
-client.editStatus('dnd'); // edits bot status
+client.editStatus('online'); // edits bot status
 
-
-client.on('error', (err) => {
+//commented to check if this was turning on files
+/* client.on('error', (err) => {
     console.error(err);
-});
+}); */
 
 console.log(`The dir name is ${__dirname}`);
-
+console.log(__filename);
 /* (async function() {
 await importAll("./events")
 await client.connect();
 })().catch(log.error) */
 
 //var event = path.join(__filename, '../events');
-var commands = path.join(__filename, './commands/mainc.mjs');
+var commands = path.join(__filename, '../commands');
 console.log(commands)
 
 
