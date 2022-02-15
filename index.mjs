@@ -1,4 +1,4 @@
-import { Client, Command } from "yuuko";
+import { Client } from "yuuko";
 import path from "path";
 import 'dotenv/config'
 import { fileURLToPath } from "url";
@@ -37,6 +37,6 @@ console.log(commands)
 
 
 client
-    .addDir(path.join(__filename, './events'))
-    .addDir(path.join(__filename, './commands'))
+    .addDir(path.join(__filename, '../events'))
+    .addDir(path.join(__filename, '../commands'))
     .connect();
