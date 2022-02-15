@@ -2,6 +2,7 @@ import { Client, Command } from "yuuko";
 import path from "path";
 import 'dotenv/config'
 import { fileURLToPath } from "url";
+import { stringify } from "querystring";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 /* function importAll(dir) {
