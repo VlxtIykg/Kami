@@ -31,7 +31,7 @@ await client.connect();
 })().catch(log.error) */
 
 //var event = path.join(__filename, '../events');
-var commands = path.join(__filename, '../commands/mainC.mjs');
+var commands = path.join(__filename, './commands/mainc.mjs');
 console.log(commands)
 
 
